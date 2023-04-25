@@ -345,10 +345,10 @@ main > section header.custom h2 {
   border-radius: 8px;
   max-width: 100%;
   transition: all 0.3s;
-  filter: saturate(25%) saturate(1);
+  filter: saturate(100%) saturate(1);
 }
 #home .image img:hover {
-  filter: saturate(100%) saturate(1);
+  filter: saturate(50%) saturate(1);
 }
 #home .meteor-shower {
   position: absolute;
@@ -580,10 +580,10 @@ main > section header.custom h2 {
   border-radius: 8px;
   max-width: 100%;
   transition: all 0.3s;
-  filter: saturate(25%) saturate(1);
+  filter: saturate(100%) saturate(1);
 }
 #about_me .hero .image img:hover {
-  filter: saturate(100%) saturate(1);
+  filter: saturate(50%) saturate(1);
 }
 #about_me .hero .info header {
   margin-bottom: 42px;
