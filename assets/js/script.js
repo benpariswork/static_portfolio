@@ -12,11 +12,16 @@ navLinks.forEach((item) => {
 
 
 
-document.querySelector('#sidebar .toggle-sidebar').addEventListener('click', function () {
+document.querySelector(' .toggle-sidebar').addEventListener('click', function () {
     document.querySelector('#sidebar').classList.toggle('open')
 })
 
+document.querySelector('#sidebar ul').addEventListener('click', function (event) {
+    // check if a toggle link was clicked
 
+      document.querySelector('#sidebar').classList.toggle('open');
+    
+  });
 
 var options = {
     strings: ['Security Engineer', 'Software Developer', 'Dog Dad', 'System Administrator'],
