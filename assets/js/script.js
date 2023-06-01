@@ -24,7 +24,7 @@ document.querySelector('#sidebar ul').addEventListener('click', function (event)
   });
 
 var options = {
-    strings: ['Security Engineer', 'Software Developer', 'Dog Dad', 'System Administrator'],
+    strings: ['Student', 'Security Engineer', 'Software Developer', 'Dog Dad', 'System Engineer'],
     loop: true,
     typeSpeed: 70,
     backSpeed: 10
